@@ -1,6 +1,5 @@
 package org.example;
 
-import java.awt.*;
 import java.util.Random;
 import org.apache.commons.math3.special.Gamma;
 

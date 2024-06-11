@@ -29,18 +29,12 @@ public abstract class Charts  {
         ChartPanel chartPanel = new ChartPanel( xyLineChart );
         chartPanel.setPreferredSize( new java.awt.Dimension( 560 , 367 ) );
 
-        XYPlot xyplot = xyLineChart.getXYPlot();
 
         try {
             ChartUtilities.saveChartAsPNG(new File("wykresy/" + functionName + "/" + algorithmName + "/" + label + ".png"), xyLineChart, 800, 600);
         } catch (IOException e) {
             e.printStackTrace();
         }
-        /*try {
-            ChartUtilities.saveChartAsPNG(new File("wykresy/Heuristic3+Population60+Random5/" + label + "png"), chart, 800, 600);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }*/
     }
 
     static XYDataset createDataset(double[] result, double[] values, String label) {
