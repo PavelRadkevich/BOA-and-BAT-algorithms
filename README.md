@@ -3,7 +3,10 @@ The program contains:
 2. BOA (Butterfly algorithm), the same as in the first point, but instead of moving towards the best individual, the movement is towards the individual that made the best move in the last iteration.
 3. BAT algorithm
 
-The program analyzes how changes in parameters will affect the result. It generates an EXCEL file (data.xlsx) with the results for each parameter value, as well as a graph (/wykresy) for each parameter showing the changes visually.
+The program analyzes how changes in parameters will affect the result. It generates an EXCEL file (data.xlsx) with the results for each parameter value:
+![excel file](https://github.com/PavelRadkevich/BOA-and-BAT-algorithms/blob/master/screenshots/Excel.PNG)
+, as well as a graph (/wykresy) for each parameter showing the changes visually:
+![diagrams](https://github.com/PavelRadkevich/BOA-and-BAT-algorithms/blob/master/screenshots/Wykresy%20(1).PNG)
 
 Six functions are analyzed:
 1. Sphere
